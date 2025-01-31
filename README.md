@@ -1,2 +1,2 @@
-# Guess-a-Number
+# SQL Server DBA Projects
 Guess a numbers game
