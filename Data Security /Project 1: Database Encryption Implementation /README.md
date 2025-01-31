@@ -26,13 +26,15 @@ We will use SQL Server as the RDBMS, but the principles can be applied to other 
 - **Encryption Tools:** SQL Server’s built-in Transparent Data Encryption (TDE) and Always Encrypted for column-level encryption.
 - **Encryption Algorithm:** AES (Advanced Encryption Standard) for column-level encryption.
 
-DESIGN AND ARCHITECTURE
+**DESIGN AND ARCHITECTURE**
+
 **Transparent Data Encryption (TDE):**
 - TDE will be used to encrypt the entire database at the storage level, ensuring that data is encrypted when stored on disk.
 - The TDE encryption key is managed by SQL Server and automatically encrypts/decrypts data when read or written to the disk.
 - The TDE setup will be applied to all databases within the SQL Server instance.
 
-TDE SQL SERVER:
+**TDE SQL SERVER:**
 ![image](https://github.com/user-attachments/assets/282a6a79-445d-43b0-9c5c-ec741e4df87a)
 
-TDE AZURE SQL DATABASE:
+**TDE AZURE SQL DATABASE:**
+![image](https://github.com/user-attachments/assets/cc492c94-94c1-4ecd-95fc-a4fc663334dd)
